@@ -1,0 +1,9 @@
+[template]
+src = "prometheus.yml.tmpl"
+dest = "/etc/prometheus/prometheus.yml"
+keys = [
+    "/myapp/database/host2",
+    "/myapp/database/host3",
+    "/myapp/database/port2",
+    "/myapp/database/port3",
+]
